@@ -1,0 +1,125 @@
+.single-post h1 {
+text-decoration: underline solid #faf5f4;
+}
+
+.post-content p {
+}
+
+.post-author p {
+}
+
+.post-date p {
+}
+
+.single-post,
+#sidebar-right,
+#sidebar-category-veckans,
+#sidebar-category-musik,
+#sidebar-category-mat,
+#sidebar-category-dricka {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #faf5f4;
+  border-width: 5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  float: right;
+}
+
+.post-content {
+  padding: 10px;
+  font-family: 'Nixie One', cursive;
+}
+
+.post-page ul {
+  padding: 0;
+}
+
+.post-banner-veckans,
+.post-banner-musik,
+.post-banner-mat,
+.post-banner-dricka {
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+.post-banner-musik {
+  background-image: url("http://localhost:8888/wordpress-PK/wp-content/themes/Far&Dotter/images/bannermusik.jpg");
+  opacity: 0.8;
+}
+
+.post-banner-veckans {
+  background-image: url("http://localhost:8888/wordpress-PK/wp-content/themes/Far&Dotter/images/bannerveckans.jpg");
+  opacity: 0.8;
+}
+
+.post-banner-mat {
+  background-image: url("http://localhost:8888/wordpress-PK/wp-content/themes/Far&Dotter/images/bannermat.jpg");
+  opacity: 0.8;
+}
+
+.post-banner-dricka {
+  background-image: url("http://localhost:8888/wordpress-PK/wp-content/themes/Far&Dotter/images/bannerdricka.jpg");
+  opacity: 0.8;
+}
+
+.post-banner-veckans h1,
+.post-banner-musik h1,
+.post-banner-mat h1,
+.post-banner-dricka h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar-right,
+#sidebar-category-veckans,
+#sidebar-category-musik,
+#sidebar-category-dricka,
+#sidebar-category-mat {
+  height: auto;
+}
+
+#sidebar-right ul,
+#sidebar-category-veckans ul,
+#sidebar-category-musik ul,
+#sidebar-category-mat ul,
+#sidebar-category-dricka ul {
+  list-style-type: none;
+}
+
+.widget-title, .cat-post-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Nixie One', cursive;
+  padding: 10px;
+}
+
+.sidebar-box li {
+  font-size: 15px;
+  font-family: 'Nixie One', cursive;
+  padding: 10px;
+}
+
+.searchform {
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Nixie One', cursive;
+}
+
+.left-align {
+  float: left;
+}
+
+.right-align {
+  float: right;
+}
+
+.profile-image img {
+  border-radius: 50%;
+}

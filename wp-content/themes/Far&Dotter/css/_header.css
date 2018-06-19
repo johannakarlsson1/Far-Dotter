@@ -1,0 +1,184 @@
+
+.navbar-default.navbar-captum {
+    border-bottom: none;
+    margin-bottom: 0;
+    background-color: #faf5f4;
+}
+
+
+/* .navbar-default.navbar-captum .nav.navbar-nav.navbar-right.navbar-user-profile li a {
+    padding: 14px 19px 3px 19px;
+} */
+
+.navbar-default {
+    background-color: #faf5f4;
+}
+
+nav.navbar-default {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-default.navbar-captum .navbar-brand {
+    color: #556061;
+    height: auto;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navbar-default.navbar-captum .nav.navbar-nav.navbar-right.navbar-user-profile {
+    height: auto;
+    color: #556061;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #556061;
+}
+
+.navbar-toggle {
+    margin: 10px;
+    padding: 20px;
+}
+
+.nav.navbar-nav.navbar-right.select-language {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.nav.navbar-nav.navbar-right.select-language .btn.btn-default.dropdown-toggle {
+    border: none;
+}
+
+.navbar.navbar-default.navbar-captum.navbar-static-top {
+    margin-bottom: 0;
+}
+
+@media (max-width: 960px) {
+
+    .navbar-collapse {
+        text-align: center;
+    }
+    .nav>li a {
+        display: inline-block;
+    }
+
+    .navbar-default .navbar-toggle {
+        z-index: 10;
+        border-color: transparent;
+        position: absolute;
+        display: block;
+        right: 0;
+    }
+
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #faf5f4;
+    }
+    .navbar-default .navbar-collapse {
+        border-color: #faf5f4;
+    }
+
+    /* Hamburger/cross animation - closed state */
+
+    .navbar-toggle {
+        width: 30px;
+        height: 30px;
+    }
+    .navbar-toggle span {
+        transition: all 200ms ease-in-out;
+        display: block;
+    }
+
+    .navbar-toggle .hamburger {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 20px;
+        right: 0px;
+    }
+
+    .navbar-toggle .cross {
+        transform: rotate(45deg);
+        top: 5px;
+        right: 0px;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .navbar-toggle .cross span {
+        background-color: #000;
+    }
+    .navbar-toggle .cross span:nth-child(1) {
+        height: 0%;
+        width: 1px;
+        position: absolute;
+        top: 8px;
+        left: 23px;
+        transition-delay: 0s;
+    }
+    .navbar-toggle .cross span:nth-child(2) {
+        width: 0%;
+        height: 1px;
+        position: absolute;
+        left: 11px;
+        top: 20px;
+        transition-delay: 200ms;
+    }
+
+
+    /* Hamburger/cross animation - open state */
+
+    .navbar-toggle.active .hamburger span {
+        width: 0%;
+    }
+
+    .navbar-header {
+        float: none;
+        padding-bottom: 20px;
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .navbar-right {
+        float: none;
+    }
+
+    .navbar-nav {
+        float: none !important;
+    }
+
+}
+
+
+/* Bootstrap toggle from side */
+@media screen and (max-width: 960px) {
+    .navbar-side .side-collapse {
+        width: 100%;
+        position: absolute;
+        overflow: auto;
+        transition: all 0.8s ease-in-out;
+        background-color: #fff;
+        right: 0;
+    }
+    .navbar-side .side-collapse.open {
+        right: -960px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 991px) {
+
+    .navbar-default.navbar-captum .nav.navbar-nav.navbar-right.navbar-user-profile li a {
+        padding: 14px 10px 3px 21px;
+    }
+
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-left: -100px;
+    }
+}

@@ -1,0 +1,42 @@
+/* FOOTER */
+
+.soc-media-ul a {
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  background: #d4a492;
+  padding: 3em 0;
+  width: 100%;
+}
+
+.soc-media-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.soc-media-ul a {
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+}
+
+#footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.social-media-icon a {
+  font-size: 30px;
+}
+
+.copy {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.social-media-icon:not(:last-child) {
+  padding-right: 10px;
+}

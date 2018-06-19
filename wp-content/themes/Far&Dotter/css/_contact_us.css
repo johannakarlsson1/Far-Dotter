@@ -1,0 +1,18 @@
+.contact-us-start-page .contact-us-start-page-container .row .form input[type=email],
+.contact-us-start-page .contact-us-start-page-container .row .form input[type=text],
+.contact-us-start-page .contact-us-start-page-container .row .form textarea {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.contact-us-start-page .contact-us-start-page-container .row .form input[type=submit] {
+    padding: 10px 40px;
+    background-color: #358ac5;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    float: right;
+}

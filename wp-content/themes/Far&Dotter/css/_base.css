@@ -1,0 +1,15 @@
+body {
+  /* background-color: #d4a492; */
+  background-color: white;
+  font-family: 'Amatic SC', cursive;
+  margin: 0;
+}
+
+.divider hr {
+  border: none;
+	height: 3px;
+	min-height: 1px;
+	display: block;
+	width: 100%;
+  background-color: #faf5f4;
+}
