@@ -41,7 +41,7 @@
       <div class="col-hexa">
         <div class="hexa">
           <a class="hexa-link" href="wp-content/themes/Far&Dotter/images/musik.jpg">
-            <img class="hexa-img" src="wp-content/themes/Far&Dotter/images/mat.jpg" alt="" />
+            <img class="hexa-img" src="wp-content/themes/Far&Dotter/images/musik.jpg" alt="" />
             <div class="hexa-content">
                 <h2 class="title">Musik</h2>
                 <p class="description">Det som spelas i lurarna just nu</p>

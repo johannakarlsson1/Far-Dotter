@@ -34,7 +34,7 @@
         <a class="nav-link" href="/veckans/">Veckans</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="/kontakta-oss/">Kontakta oss</a>
+        <a class="nav-link" href="/kontakta-oss/">Kontakta oss</a>
       </li>
     </ul>
   </div>

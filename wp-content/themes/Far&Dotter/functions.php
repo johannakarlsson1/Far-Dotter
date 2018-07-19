@@ -4,7 +4,6 @@
 function farochdotter_theme_stylesheets() {
     wp_enqueue_style( 'style',  get_template_directory_uri() .'/style.css', array(), null, 'all' );
     wp_enqueue_script( 'main', get_template_directory_uri() .'/js/main.js', array(), null, 'all' );
-    wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'farochdotter_theme_stylesheets' );

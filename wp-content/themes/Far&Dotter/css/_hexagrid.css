@@ -2,23 +2,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
-}
-
-header .headings {
-  text-align: center;
-}
-
-header .headings h1 {
-  font-size: 50px;
-  font-weight: 500;
-  margin-top: 0;
-}
-
 .intro-text > h1 {
   text-align: center;
   font-size: 60px;
@@ -26,7 +9,7 @@ header .headings h1 {
 }
 
 .main-hexa-grid {
-  margin-top: 60px;
+  margin-top: 100px;
   margin-bottom: 60px;
   position: relative;
 }
@@ -134,7 +117,7 @@ header .headings h1 {
 .hexa-link:hover .hexa-content {
   background-color: #B6C4A2;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .row-hexa {
     padding-bottom: 6.4%;
   }
@@ -145,17 +128,7 @@ header .headings h1 {
     margin-left: 12.5%;
   }
 }
-@media (max-width: 767px) and (min-width: 768px) {
-  .row-hexa {
-    padding-bottom: 7.4%;
-  }
-  .col-hexa {
-    width: 33.333%;
-  }
-  .col-hexa:nth-child(5n+4) {
-    margin-left: 16.666%;
-  }
-}
+
 @media (max-width: 767px) {
   .row-hexa {
     padding-bottom: 11.2%;
@@ -183,4 +156,10 @@ header .headings h1 {
 .hexa-hover .hexa-link:focus .title,
 .hexa-hover .hexa-link:hover .title {
   transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 991px) {
+  .description {
+    display: none;
+  }
 }
