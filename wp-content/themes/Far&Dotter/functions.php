@@ -4,9 +4,21 @@
 function farochdotter_theme_stylesheets() {
     wp_enqueue_style( 'style',  get_template_directory_uri() .'/style.css', array(), null, 'all' );
     wp_enqueue_script( 'main', get_template_directory_uri() .'/js/main.js', array(), null, 'all' );
+    wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' );
 }
+
 add_action( 'wp_enqueue_scripts', 'farochdotter_theme_stylesheets' );
 
+function theme_js() {
+
+	global $wp_scripts;
+
+	wp_enqueue_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+	wp_enqueue_script( 'my_custom_js', get_template_directory_uri() . '/js/scripts.js');
+
+}
+
+add_action( 'wp_enqueue_scripts', 'theme_js');
 // Navigation menus
 
 register_nav_menus( array(

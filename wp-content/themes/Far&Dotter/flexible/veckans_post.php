@@ -1,4 +1,5 @@
 <div class="post-banner-veckans">
+  <img class="banner-image" src="wp-content/themes/Far&Dotter/images/bannerveckans.jpg" alt="">
   <h1>Veckans</h1>
 </div>
 

@@ -1,4 +1,5 @@
 <div class="post-banner-musik">
+  <img class="hexa-img" src="wp-content/themes/Far&Dotter/images/bannermusik.jpg" alt="">
   <h1>Musik</h1>
 </div>
 

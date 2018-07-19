@@ -45,22 +45,22 @@ text-decoration: underline solid #faf5f4;
 }
 
 .post-banner-musik {
-  background-image: url("http://localhost:8888/wordpress-PK/wp-content/themes/Far&Dotter/images/bannermusik.jpg");
+  background-image: url("http://farochdotter.se/wp-content/themes/Far&Dotter/images/bannermusik.jpg");
   opacity: 0.8;
 }
 
 .post-banner-veckans {
-  background-image: url("http://localhost:8888/wordpress-PK/wp-content/themes/Far&Dotter/images/bannerveckans.jpg");
+  background-image: url("http://farochdotter.se/wp-content/themes/Far&Dotter/images/bannerveckans.jpg");
   opacity: 0.8;
 }
 
 .post-banner-mat {
-  background-image: url("http://localhost:8888/wordpress-PK/wp-content/themes/Far&Dotter/images/bannermat.jpg");
+  background-image: url("http://farochdotter.se/wp-content/themes/Far&Dotter/images/bannermat.jpg");
   opacity: 0.8;
 }
 
 .post-banner-dricka {
-  background-image: url("http://localhost:8888/wordpress-PK/wp-content/themes/Far&Dotter/images/bannerdricka.jpg");
+  background-image: url("http://farochdotter.se/wp-content/themes/Far&Dotter/images/bannerdricka.jpg");
   opacity: 0.8;
 }
 

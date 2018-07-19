@@ -1,4 +1,5 @@
 <div class="post-banner-dricka">
+  <img class="banner-image" src="wp-content/themes/Far&Dotter/images/bannerdricka.jpg" alt="">
   <h1>Dryck</h1>
 </div>
 

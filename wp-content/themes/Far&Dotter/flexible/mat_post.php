@@ -1,4 +1,5 @@
 <div class="post-banner-mat">
+  <img class="banner-image" src="wp-content/themes/Far&Dotter/images/bannermat.jpg" alt="">
   <h1>Mat</h1>
 </div>
 
